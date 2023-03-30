@@ -700,3 +700,20 @@ margin: 1% 0;
     justify-content: center;
   }
 }
+.maps{
+  height: 440px;
+  position: relative;
+}
+
+.anime{
+  position: absolute;
+  animation: anime 5s infinite linear;
+}
+@keyframes anime{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
