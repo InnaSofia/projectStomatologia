@@ -43,7 +43,7 @@ html{
 .navigation_logo{
   display: flex;
   justify-content: space-between;
-  align-items: center
+  align-items: center;
 }
 .Logo{
   font-size: var(--size);
@@ -237,7 +237,7 @@ font-size: var(--2size);
 .position-text{
   
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding-right: 2%;
   align-items: center;
   }
