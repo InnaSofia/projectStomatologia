@@ -20,9 +20,9 @@ html{
   --4size:30px;
   --5size:13px;
 }
-/**{
+*{
   box-sizing: border-box;
-}*/
+}
 .conteiner-hero{
   width: 100%;
   max-width: 1000px;
@@ -37,6 +37,7 @@ html{
   background-position: center top;
   background-size: cover;
   padding-bottom: var(--unit);
+  padding-top: 5%;
  
 }
 
@@ -67,7 +68,7 @@ html{
   justify-content: space-between;
   box-shadow: var(--1primary-color);
 }
-@media (max-width:600px) { 
+@media (max-width:750px) { 
   .navigation{
    display: flex;
    flex-direction: column;
@@ -75,6 +76,8 @@ html{
   }
 .conteiner-heading, .navigation_logo{
   margin: 10px;
+  flex-wrap: wrap;
+    flex-direction: column;
 }
   .navigation-text{
     padding-top:var(--unit) ;
@@ -201,9 +204,6 @@ font-size: var(--2size);
     margin-left: var(--unit);
     margin-right: var(--unit);
     margin: 2%
-  }
-  #hero{
-    overflow-x: hidden;
   }
   .position-text{
     flex-wrap: wrap;
@@ -357,11 +357,11 @@ justify-content: space-between;
   .position-reviews{
     flex-wrap: wrap;
     flex-direction: column;
-    margin-left: 20px;
+    margin: 5%;
    
   }
   .reviews{
-    width: 90%;
+    width: 100%;
   }
 }
 
@@ -469,6 +469,7 @@ justify-content: space-between;
     flex-wrap: wrap;
     gap: 10px;
     padding: 10px;
+    flex-direction: column;
   }
   
 }
@@ -582,7 +583,7 @@ justify-content: space-between;
   width: 70%;
   margin-bottom: 1%;
 }
-@media (max-width:700px){
+@media (max-width:860px){
   .prices1{
     background-color: #f0f9ff;
   border-radius: 50px;
@@ -706,7 +707,7 @@ margin: 1% 0;
 }
 
 .anime{
-  position: absolute;
+  position: fixed;
   animation: anime 5s infinite linear;
 }
 @keyframes anime{
