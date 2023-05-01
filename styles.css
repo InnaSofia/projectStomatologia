@@ -7,8 +7,7 @@ html{
   --primary-color:#0284c7;
   --_primary-color:#ffffff;
   --1primary-color: 1px 2px 4px #787878;
-  --2primary-color:linear-gradient(114deg, 
-  rgb(54 54 54 / 90%), #ffffff00);
+  --2primary-color:linear-gradient(114deg, rgb(19 54 125 / 90%), #ffffff00);
   --3primary-color:#0ea5e9;
   --4primary-color:linear-gradient(0deg, rgba(248, 237, 237, 0.682), #dbf3ffa7);
   --unit: 3%;
